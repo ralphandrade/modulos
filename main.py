@@ -28,5 +28,8 @@ if __name__ == '__main__':
                 b_menor = int(input('b_menor: '))
                 h = int(input('altura do trapezio: '))
                 print(f'Area: {calcular_trapezio(b_maior, b_menor, h)}')
-                pass
+                continue
+            case'5':
+                print('Programa encerrado')
+                break
 
